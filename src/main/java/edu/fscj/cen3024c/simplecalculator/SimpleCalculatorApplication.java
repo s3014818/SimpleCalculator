@@ -3,6 +3,9 @@
 // 1/9/2024
 // Template for calculator application
 
+//	Britton Sutherland 8-29-25
+//	CEN3024c
+//	Fall 2025
 package edu.fscj.cen3024c.simplecalculator;
 
 import org.springframework.boot.SpringApplication;
@@ -10,6 +13,22 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SimpleCalculatorApplication {
+	
+	//	Addition
+	public static int add(int a, int b) {
+		return a + b;}
+	//	Subtraction
+	public static int subtract(int a, int b) {
+		return a - b;}
+	//	Multiplication
+	public static int multiply(int a, int b) {
+		return a * b;}
+	// Division
+	public static int divide(int a, int b) {
+		return a / b;}
+		
+	
+	
     public static void main(String[] args) {
         SpringApplication.run(SimpleCalculatorApplication.class, args);
 
